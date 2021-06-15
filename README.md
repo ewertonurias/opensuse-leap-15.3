@@ -17,7 +17,7 @@ Yes.
 # Will Microsoft TrueType Fonts will be offered?
 Yes.
 
-# hostname will be renamed to @opensuse-desktop
+# Hostname will be renamed to @opensuse-desktop
 You can change this later with the command: `sudo hostnamectl set-hostname new_name`
 
 # Packages related to games that will be installed
