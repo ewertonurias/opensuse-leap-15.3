@@ -4,7 +4,10 @@ printf "\nEtapa 1/8: Atualizando o sistema... \n"
 sudo zypper ref && sudo zypper up
 
 printf "\nEtapa 2/8: Instalando codecs de áudio e vídeo... \n"
-sudo zypper install opi && opi codecs
+sudo zypper addrepo -cfp 90 'https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_$releasever/' packman
+sudo zypper ref
+sudo zypper dup --from packman --allow-vendor-change
+sudo zypper install --from packman ffmpeg gstreamer-plugins-{good,bad,ugly,libav} libavcodec-full vlc-codecs
 
 printf "\nEtapa 3/8: Atualizando o Firefox para a versão mais recente... \n"
 sudo zypper ar -cfp 90 http://download.opensuse.org/repositories/mozilla/openSUSE_Leap_15.3/ mozilla
