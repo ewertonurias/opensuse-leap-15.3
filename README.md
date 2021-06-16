@@ -7,6 +7,7 @@ zypper without -y (For security, you will always have to confirm when asked).
 - Packman
 - Mozilla
 - NVIDIA
+- Emulators
 
 # Codecs will be installed?
 Yes.
@@ -26,6 +27,7 @@ You can change this later with the command: `sudo hostnamectl set-hostname new_n
 - steam
 - discord
 - obs-studio
+- pcsx2
 
 # Other packages that will be installed
 - kget
@@ -41,6 +43,8 @@ You can change this later with the command: `sudo hostnamectl set-hostname new_n
 - ristretto
 - feh
 - youtube-dl
+- unrar
+- p7zip-full
 
 # Packages that will be uninstalled
 None.
