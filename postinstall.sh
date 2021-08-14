@@ -9,7 +9,7 @@ printf "\nEtapa 2/10: Instalando codecs de áudio e vídeo... \n"
 sudo zypper addrepo -cfp 90 'https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_$releasever/' packman
 sudo zypper ref
 sudo zypper dup --from packman --allow-vendor-change
-sudo zypper install --from packman ffmpeg gstreamer-plugins-{good,bad,ugly,libav} libavcodec-full vlc-codec-gstreamer
+sudo zypper install --from packman ffmpeg gstreamer-plugins-{good,bad,ugly,libav} libavcodec-full vlc-codecs
 
 ## Update MozillaFirefox from Mozilla repositories (Optional)
 # printf "\nAtualizando o Firefox para a versão mais recente... \n"
