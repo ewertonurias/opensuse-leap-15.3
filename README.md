@@ -1,31 +1,31 @@
 # opensuse-leap-15.3
 
-My personal script focused on post install openSUSE Leap 15.3 KDE Plasma.
+Meu script pessoal de pós instalação focado em openSUSE Leap 15.3 KDE Plasma.
 
-For security reasons, zypper doesn't have -y argument, it's necessary to confirm everything when asked.
+Por motivos de segurança, o zypper não acompanha o argumento -y, é necessário confirmar tudo quando perguntado.
 
-# Add Repositories
+# Quais repositórios serão adicionados?
 - Packman
-- Mozilla (Optional, necessary to uncomment the lines)
+- Mozilla (Opcional, é necessário descomentar as linhas)
 - NVIDIA
 - Emulators
 
-# Will codecs be installed?
-Yes.
+# Codecs serão oferecidos?
+Sim.
 
-# Will nvidia-driver be offered?
-Yes.
+# Driver proprietário NVIDIA será oferecido?
+Sim.
 
-# Will Microsoft TrueType Fonts be offered?
-Yes.
+# Fontes TrueType Microsoft serão oferecidas?
+Sim.
 
-# Will Feral GameMode support be offered?
-Yes.
+# Feral GameMode será oferecido?
+Sim.
 
-# Hostname will be renamed to @opensuse-desktop
-You can change this later with the command: `sudo hostnamectl set-hostname new_name`
+# Hostname será renomeado para @opensuse-desktop
+Você pode alterar isto posteriormente com o comando: `sudo hostnamectl set-hostname new_name`
 
-# Packages related to games that will be installed
+# Pacotes referentes a jogos que serão instalados
 - wine-staging
 - lutris
 - steam
@@ -35,23 +35,23 @@ You can change this later with the command: `sudo hostnamectl set-hostname new_n
 - pcsx2
 - retroarch
 
-# Other packages that will be installed
-- kget
-- krita
+# Outros pacotes que serão instalados
+- feh
 - kcolorchooser
 - kdenlive
-- p7zip-full
+- kget
+- krita
 - partitionmanager
-- unrar
+- p7zip-full
 - inkscape
-- telegram-desktop
-- qbittorrent
 - neofetch
+- qbittorrent
 - ristretto
-- feh
-- youtube-dl
 - sweeper
+- telegram-desktop
+- unrar
 - vokoscreenNG
+- youtube-dl
 
-# Packages that will be uninstalled
-None.
+# Pacotes que serão removidos
+Nenhum.
