@@ -46,7 +46,7 @@ sudo zypper install fetchmsttfonts
 printf "\nEtapa 9/10: Instalando softwares diversos... \n"
 sudo zypper install feh k{colorchooser,denlive,get,rita} p{artitionmanager,7zip-full} inkscape neofetch qbittorrent ristretto sweeper telegram-desktop unrar vokoscreenNG youtube-dl
 
-### Altera o nome do hostname
+### Altera o hostname
 printf "\nEtapa 10/10: Alterando o hostname para @opensuse-desktop... \n"
 sudo hostnamectl set-hostname opensuse-desktop
 
